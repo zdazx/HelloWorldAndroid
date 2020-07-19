@@ -14,7 +14,7 @@
 
         <Button
             android:id="@+id/button_label1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/button_label1" />
@@ -30,7 +30,7 @@
 
         <Button
             android:id="@+id/button_label2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/button_label2" />
@@ -46,7 +46,7 @@
         android:layout_marginBottom="50dp">
         <Button
             android:id="@+id/button_label3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/button_label3" />
