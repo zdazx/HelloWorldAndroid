@@ -3,4 +3,12 @@
     <string name="button_label1">按钮 1</string>
     <string name="button_label2">按钮 2</string>
     <string name="button_label3">按钮 3</string>
+    <string name="button_label4">按钮 4</string>
+    <string name="button_label5">按钮 5</string>
+    <string name="button_label6">按钮 6</string>
+    <string name="button_label7">按钮 7</string>
+    <string name="button_label8">按钮 8</string>
+    <string name="button_label9">按钮 9</string>
+    <string name="button_label10">按钮 10</string>
+    <string name="title">Android 练习</string>
 </resources>
