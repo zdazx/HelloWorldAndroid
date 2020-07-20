@@ -3,4 +3,8 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="hintInEditText">#E4E4E4</color>
+    <color name="rememberAndForgot">#222222</color>
+    <color name="connectWith">#B2B2B2</color>
+    <color name="signUp">#1F4BA5</color>
 </resources>
