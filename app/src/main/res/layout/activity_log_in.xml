@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="148.9dp"
+            android:layout_height="30.3dp"
+            android:layout_marginHorizontal="113.1dp"
+            android:layout_marginTop="88dp"
+            android:contentDescription="@string/img_info"
+            android:src="@drawable/fill_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="62.5dp"
+            android:layout_marginTop="77.7dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:autofillHints="@string/username"
+                android:hint="@string/username"
+                android:background="@drawable/edit_text_rounded_corners"
+                android:padding="10dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints="@string/password"
+                android:hint="@string/password"
+                android:background="@drawable/edit_text_rounded_corners"
+                android:padding="10dp"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22.5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/isRemember"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/rememberAndForgot"
+                    android:text="@string/check_box_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/rememberAndForgot"
+                    android:text="@string/forgot_pass" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="22.5dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_sign_up_rounded_corners"
+                android:text="@string/log_in_btn"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="80.5dp"
+                android:layout_marginTop="26.5dp"
+                android:text="@string/connectWith" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29.5dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="start"
+                    android:contentDescription="@string/img_info"
+                    android:src="@drawable/fb" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:contentDescription="@string/img_info"
+                    android:src="@drawable/tw" />
+            </FrameLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="85.5dp"
+                android:layout_marginBottom="44.5dp"
+                android:textColor="@color/signUp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_sign_up_with_email_rounded_corners"
+                android:text="@string/sign_up_with" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
