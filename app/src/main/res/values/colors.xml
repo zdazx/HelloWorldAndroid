@@ -7,4 +7,5 @@
     <color name="rememberAndForgot">#222222</color>
     <color name="connectWith">#B2B2B2</color>
     <color name="signUp">#1F4BA5</color>
+    <color name="textColor">#FFF</color>
 </resources>

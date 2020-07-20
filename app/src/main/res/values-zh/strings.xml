@@ -13,4 +13,12 @@
     <string name="title">Android 练习</string>
     <string name="sign_up">Sign Up</string>
     <string name="log_in">Log In</string>
+    <string name="img_info">img</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="check_box_text">Remember me</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="log_in_btn">Login</string>
+    <string name="connectWith">or connect with</string>
+    <string name="sign_up_with">Sign Up with E-mail</string>
 </resources>
